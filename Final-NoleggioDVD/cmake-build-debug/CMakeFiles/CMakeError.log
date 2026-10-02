@@ -1,0 +1,16 @@
+Performing C SOURCE FILE Test HAVE_MYSQL_OPT_EMBEDDED_CONNECTION failed with the following output:
+Change Dir: /home/giuelino/Documenti/BD/Progetto2122/Progetto/Final-NoleggioDVD/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/198/bin/ninja/linux/ninja cmTC_4a54a && [1/2] Building C object CMakeFiles/cmTC_4a54a.dir/src.c.o
+FAILED: CMakeFiles/cmTC_4a54a.dir/src.c.o 
+/usr/bin/cc -DHAVE_MYSQL_OPT_EMBEDDED_CONNECTION  -std=gnu11 -o CMakeFiles/cmTC_4a54a.dir/src.c.o -c /home/giuelino/Documenti/BD/Progetto2122/Progetto/Final-NoleggioDVD/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+/home/giuelino/Documenti/BD/Progetto2122/Progetto/Final-NoleggioDVD/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:1:10: fatal error: mysql.h: File o directory non esistente
+    1 | #include <mysql.h>
+      |          ^~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <mysql.h>
+int main() { int i = MYSQL_OPT_USE_EMBEDDED_CONNECTION; }

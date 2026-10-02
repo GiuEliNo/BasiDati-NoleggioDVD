@@ -1,0 +1,3 @@
+/home/giuelino/Documenti/BD/Progetto2122/Progetto/Final-NoleggioDVD/cmake-build-debug/CMakeFiles/catenaNoleggi.dir
+/home/giuelino/Documenti/BD/Progetto2122/Progetto/Final-NoleggioDVD/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/giuelino/Documenti/BD/Progetto2122/Progetto/Final-NoleggioDVD/cmake-build-debug/CMakeFiles/rebuild_cache.dir
